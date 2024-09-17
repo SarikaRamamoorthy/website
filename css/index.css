@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 50%;
+    margin: auto;
+}
+
+.bg {
+    background: #5f2c82;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* color: white; */
+}
+.footer {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-weight: bold;
+    background: #8E2DE2;
+    /* background: #00416A; */
+    background: -webkit-linear-gradient(to right, #dee1e3, #00416aee);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dee1e3,#00416aee);
+}
+
+.header {
+    
+    display: flex;
+    height: 130px;
+    padding: 1rem;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.header > div > h1, h3 {
+    color: rgb(255, 255, 255);
+}
+
+th {
+    background: rgb(188, 185, 185);
+}
+
+img {
+    border-radius: 50px;
+    height: 100px;
+}
+
+table {
+    width: 95%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    color: white;
+}
+
+th, td {
+   padding: 15px;
+}
+
+.obj {
+    padding: 1rem;
+}
+.color-primary{
+    color: rgb(44, 44, 44);
+}
+
+.skill {
+    width: 90%;
+    margin: auto;
+}
+
+.buttonchange {
+    background-color: rgba(173, 216, 230, 0.735);
+    border: none;
+    width: 5vw;
+    /* border:1px solid white; */
+}
+
+.buttonchange:hover {
+    /* background-color: #f9f9f9; */
+    background-color: transparent;
+}
